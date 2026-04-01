@@ -15,7 +15,6 @@ app.use(cors());
 app.use(routes);
 mongoose.connect(mongo_url);
 
-
 // app.listen(port,()=>{
 //     console.log(`Server running at port number is ${port}`); 
 // })
